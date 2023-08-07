@@ -18,13 +18,13 @@
   transition: .5s;
 }
 
-.fade--in {
-  animation: fadeIn 4s ease 0s 1 normal;
+@keyframes fadeIn {
+  0%{opacity: 0.5} 
+  100% {opacity: 1} 
 }
 
-@keyframes fadeIn {
-  4s{opacity: 0.5} 
-  0s{opacity: 1} 
+.fade--in {
+  animation: fadeIn 4s ease 0s 1 normal;
 }
 
 .fade--out {
