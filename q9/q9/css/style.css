@@ -19,7 +19,7 @@
 }
 
 .fade--in {
-  animation: fadeIn 4s ease 0s 1 normal;
+  animation: fadeIn 4s ease 0.5s 1 normal;
 }
 
 .fade--out {
@@ -62,7 +62,7 @@
 }
 
 .spin--box:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .up--slide:hover {
