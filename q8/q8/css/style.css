@@ -11,15 +11,15 @@
 }
 
 .repeat{
-  background: auto;
+  background-size: auto;
 }
 
 .cover{
-  background: cover;
+  background-size: cover;
 }
 
 .contain{
-  background: contain;
+  background-size: contain;
 }
 
 /*元のコード
