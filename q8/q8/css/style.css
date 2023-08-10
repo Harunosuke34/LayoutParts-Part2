@@ -4,10 +4,25 @@
   height: 500px;
 }
 
-.back--img {
+.back--img{
   background: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.repeat{
+  background-size: auto;
+}
+
+.cover{
+  background-size: cover;
+}
+
+.contain{
+  background-size: contain;
+}
+
+/*元のコード
 .back--img--repeat {
   background: url(../../image/coffee-background.jpg) no-repeat;
 }
@@ -19,5 +34,5 @@
 .back--img--contain {
   background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
-
+*/
 
