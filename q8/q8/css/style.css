@@ -5,21 +5,19 @@
 }
 
 .back--img{
-  background: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background:url(../../image/coffee-background.jpg);
 }
 
-.repeat{
-  background-size: auto;
+.back--img--repeat{
+  background:url(../../image/coffee-background.jpg)no-repeat; 
 }
 
-.cover{
-  background-size: cover;
+.back--img--cover{
+  background:url(../../image/coffee-background.jpg)no-repeat center/cover;
 }
 
-.contain{
-  background-size: contain;
+.back--img--contain{
+  background:url(../../image/coffee-background.jpg)no-repeat center/contain;
 }
 
 /*元のコード
